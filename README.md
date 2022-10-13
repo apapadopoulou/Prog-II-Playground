@@ -14,3 +14,11 @@ This repository is created in the context of the Programming II course of the De
 
 
 ## <a name="res"></a>Resources and Useful Links
+
+- [Git Download and Documentation](https://git-scm.com/)
+- [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+- [Maven Download and Documentation](https://maven.apache.org/)
+- [Maven Plugins](maven.apache.org/plugins/index.html)
+- [Maven Repository](https://mvnrepository.com/)
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Commit Messages Best Practices](https://initialcommit.com/blog/git-commit-messages-best-practices)
