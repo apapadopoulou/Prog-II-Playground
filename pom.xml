@@ -24,5 +24,31 @@
             <version>1.11</version>
         </dependency>
     </dependencies>
-
+  <build>
+    <plugins>
+    <plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+						<!-- replace this with the class that contains the main method. It requires also the package name if exists. -->
+							<mainClass>example.Add</mainClass> 
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+    </plugins>
+  </build>
 </project>
