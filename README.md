@@ -33,13 +33,16 @@ This will also enable your current local branch to track a specific remote branc
 Another good practice when we want to collaborate in a project is to fork the initial remote repository at GitHub and create our own version.
 To clone the newly created version locally, we will follow the aforementioned steps, of course changing the url of the repository where needed.
 However, we need to add the main GitHub repository as upstream. This will help us fetch the changes from the main repository, to keep ours up to date.
-The command that does this is the following.
+The commands that do this are the following.
 
 ``` 
+  git clone https://github.com/{your-username}/Prog-II-Playground.git
   git remote add upstream https://github.com/apapadopoulou/Prog-II-Playground.git 
 ```
 
-Now, let's experiment! You can contribute to this project by creating a new branch or a fork, make changes and create a pull request.
+> Note that these steps are mandatory if you want to publish changes into this project.
+
+Now, let's experiment! You can contribute to this project by creating a fork, make changes in a new or in an already existing branch and create a pull request.
 Remember that when you make a change in a file, you should execute the following commands to commit it.
 
 ```
