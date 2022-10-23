@@ -40,7 +40,7 @@ The commands that do this are the following.
   git remote add upstream https://github.com/apapadopoulou/Prog-II-Playground.git 
 ```
 
-> Note that these steps are mandatory if you want to publish changes into this project.
+> Note that forking is mandatory if you want to publish changes into this project.
 
 Now, let's experiment! You can contribute to this project by creating a fork, make changes in a new or in an already existing branch and create a pull request.
 Remember that when you make a change in a file, you should execute the following commands to commit it.
