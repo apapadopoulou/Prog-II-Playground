@@ -9,6 +9,44 @@ This repository is created in the context of the Programming II course of the De
 
 ## <a name="git"></a>Git and GitHub
 
+**Git** is a popular version control system that enables changes tracking in projects and collaboration among developers.
+**GitHub** is a code hosting platform that scales collaboration, by letting you contribute to software projects from anywhere.
+
+This is a simple repository that you can use, in order to practice basic Git and GitHub projects. 
+To begin with, you can clone this repository in your local system by using
+
+``` git clone https://github.com/apapadopoulou/Prog-II-Playground.git ```
+
+An alternative to the above approach is to create a git repository locally from scratch, add the remote repository and pull the files. 
+When you pull the files from the remote origin repository, you should specify the branch from which you want to pull the files from. 
+This will also enable your current local branch to track a specific remote branch.
+
+``` 
+  git init [name]
+  cd [name]
+  git remote add origin https://github.com/apapadopoulou/Prog-II-Playground.git
+  git pull origin main
+```
+
+Another good practice when we want to collaborate in a project is to fork the initial remote repository at GitHub and create our own version.
+To clone the newly created version locally, we will follow the aforementioned steps, of course changing the url of the repository where needed.
+However, we need to add the main GitHub repository as upstream. This will help us fetch the changes from the main repository, to keep ours up to date.
+The command that does this is the following.
+
+``` git remote add upstream https://github.com/apapadopoulou/Prog-II-Playground.git ```
+
+Now, let's experiment! You can contribute to this project by creating a new branch or a fork, make changes and create a pull request.
+Remember that when you make a change in a file, you should execute the following commands to commit it.
+
+```
+  git add [changed-file]
+  git commit -m [message]
+```
+
+Remember to always use descriptive messages in your commits. When you want to push your changes at GitHub, you use
+
+``` git push origin [branch-name] ```
+
 
 ## <a name="maven"></a>Maven
 
